@@ -1,0 +1,1184 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.list {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+
+
+    width: 100%;
+    height: 544px;
+    flex-shrink: 0;
+    background: #163A24;
+
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.site-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+
+}
+
+.site-header-logo {}
+
+.list {
+    display: flex;
+    column-gap: 24px;
+    justify-content: end;
+}
+
+.item {}
+
+.link {
+    width: 50px;
+    color: #FBFAF7;
+    text-align: right;
+    font-family: "Noto Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.btn {
+    text-align: center;
+    padding: 15px 25px;
+    width: 141px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 160px;
+    background: #198C36;
+    color: #FBFAF7;
+    text-align: right;
+    font-family: "Noto Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* site hero */
+.site-hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-hero-title {}
+
+.hero-title {
+    width: 391px;
+    color: #FBFAF7;
+    font-family: Recoleta;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 65.25px;
+    /* 135.938% */
+}
+
+.hero-text {
+    width: 400px;
+    color: #FBFAF7;
+    font-family: "Noto Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    /* 150% */
+}
+
+.hero-section-img {}
+
+.hera-img {
+    width: 500px;
+    height: 400px;
+    flex-shrink: 0;
+    margin-top: 70px;
+    /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); */
+    border: none;
+}
+
+/* site hero */
+
+/* site main */
+.main {}
+
+.container {}
+
+.site-main {}
+
+.cards {}
+
+.card {
+    display: flex;
+    align-items: center;
+    column-gap: 129px;
+    row-gap: 20px;
+
+}
+
+.main-desc {
+    row-gap: 30px;
+}
+
+.site-main-img {
+    margin-top: 40px;
+    width: 492px;
+    height: 510px;
+}
+
+.site-main-title {
+    margin-bottom: 25px;
+    width: 325px;
+    color: #163A24;
+    font-family: Recoleta;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 54px;
+    /* 112.5% */
+}
+
+.site-main-text {
+    width: 374px;
+    color: #163A24;
+    font-family: "Noto Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    /* 150% */
+}
+
+/* card-2 */
+.card-2 {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.site-main-img-2 {
+    margin-left: 200px;
+    width: 492px;
+    height: 423px;
+}
+
+
+
+.site-main-title {
+    width: 376px;
+    color: #163A24;
+    font-family: Recoleta;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 54px;
+    /* 112.5% */
+}
+
+.site-main-text {
+    width: 380px;
+    color: #163A24;
+    font-family: "Noto Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    /* 150% */
+}
+
+/* card-2 */
+/* title */
+.title {
+    text-align: center;
+    justify-content: center;
+}
+
+.site-title {
+    margin-top: 100px;
+    margin-left: 350px;
+    width: 539px;
+    color: #163A24;
+    text-align: center;
+    font-family: Recoleta;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 54px;
+    /* 112.5% */
+}
+
+/* title */
+
+/* site menu */
+.main-menu {
+    column-gap: 86px;
+    row-gap: 86px;
+}
+
+.main-mune-img {
+    margin-top: 60px;
+    margin-left: 86px;
+    width: 110px;
+    height: 51px;
+    /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+}
+
+/* site menu */
+
+/* production section */
+
+.production {
+    /* width: 1140px;
+    width: 1340px;
+    left:0px ;
+height: 568px;
+flex-shrink: 0;
+    
+    flex-shrink: 0;
+    background: #163A24; */
+}
+
+.production-section {
+    margin-top: 55px;
+    width: 100%;
+    height: 500px;
+    background: #163A24;
+
+}
+
+.production-title {
+    width: 823px;
+    color: #FBFAF7;
+    text-align: center;
+    margin-left: 120px;
+    padding-top: 50px;
+    font-family: Recoleta;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 54px;
+    /* 112.5% */
+}
+
+.section-cards {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.production-card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.production-img {}
+
+.production-text {
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    width: 167px;
+    color: #FBFAF7;
+    text-align: center;
+    font-family: "Noto Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    align-items: center;
+    /* 150% */
+}
+
+.production-span {
+    align-items: center;
+    justify-content: space-between;
+    width: 198px;
+    color: #FBFAF7;
+    text-align: center;
+    font-family: "Noto Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    /* 150% */
+}
+
+/* production section */
+/* people */
+.people {
+    background-color: #F2EFE6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    column-gap: 30px;
+
+
+}
+
+.people-title {
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    max-width: 739px;
+    color: #163A24;
+    text-align: center;
+    font-family: Recoleta;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 54px;
+    /* 112.5% */
+}
+
+.people-text {
+    /* margin-top: 30px;
+    margin-left: 330px; */
+    max-width: 700px;
+    margin: auto;
+    color: #163A24;
+    text-align: center;
+    font-family: "Noto Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    /* 150% */
+}
+
+.people-img {
+    margin-bottom: 70px;
+}
+
+
+.people-section-image {}
+
+/* people */
+/* site main */
+/* together */
+.together-ads {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 130px;
+
+
+
+}
+
+.together desc {}
+
+.container {}
+
+.together-title {
+    max-width: 338px;
+    height: 108px;
+    top: -6.06px;
+    left: -0.34px;
+    font-family: Recoleta;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 30px;
+    color: #163A24;
+
+}
+
+.together-text {
+    width: 340px;
+    height: 81px;
+    top: 128.94px;
+    left: -0.34px;
+    font-family: Noto Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #163A24;
+
+
+}
+
+.together-img {}
+
+.together-image {}
+
+/* together */
+
+
+/* consider */
+.consider {}
+
+.container {}
+
+.consider-section {}
+
+.consider-section-title {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.consider-title {
+    text-align: center;
+    margin-bottom: 20px;
+    max-width: 727px;
+    height: 54px;
+    top: -6px;
+    left: 227px;
+    font-family: Recoleta;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #163A24;
+}
+
+.consider-text {
+    width: 343px;
+    height: 27px;
+    top: 74px;
+    left: 419px;
+    font-family: Noto Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #163A24;
+
+}
+
+.consider-cards {
+    width: 1180px;
+    height: 430px;
+    top: 119px;
+    left: 130px;
+    padding: 0px, 20px, 0px, 20px;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+    display: flex;
+    justify-content: space-between;
+
+
+
+}
+
+.consider-card-2 {
+
+    max-width: 500px;
+    padding-left: 10px;
+    padding-right: 70px;
+    height: 393px;
+    left: 20px;
+    background-color: lightgray;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.consider-icon {
+    width: 62px;
+    height: 75px;
+    margin-top: 50px;
+    margin-left: 40px;
+    padding: 0px, 0px, 0.01px, 0px;
+}
+
+.consider-card-title-2 {
+    width: 285px;
+    height: 63px;
+    top: 145px;
+    left: 40px;
+    font-family: Recoleta;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 15px;
+    margin-left: 10px;
+    color: #163A24;
+
+}
+
+.list-2-2 {
+    margin-top: 30px;
+    margin-left: 50px;
+    column-gap: 50px;
+}
+
+.consider-card {
+
+    max-width: 500px;
+    padding-left: 10px;
+    padding-right: 70px;
+    height: 393px;
+    left: 20px;
+    background-color: lightgray;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+
+.consider-icon {
+    width: 62px;
+    height: 75px;
+    margin-top: 50px;
+    margin-left: 40px;
+    padding: 0px, 0px, 0.01px, 0px;
+
+
+}
+
+.consider-card-title {
+    width: 160px;
+    height: 63px;
+    margin-top: 15px;
+    margin-left: 40px;
+    font-family: Recoleta;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #163A24;
+
+
+
+}
+
+.list-2 {
+
+    /* top: 74px;
+    left: 25px; */
+    /* width: 112px;
+    height: 22px; */
+    margin-top: 20px;
+    margin-left: 50px;
+    column-gap: 50px;
+
+}
+
+.item-2 {}
+
+.link-2 {
+
+    color: #163A24;
+    font-family: Noto Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+}
+
+/* consider */
+
+/* easy */
+
+.easy {
+    max-width: 1440px;
+    height: 600px;
+    background: #F2EFE6;
+
+
+}
+
+.easy-title {
+    max-width: 360px;
+    height: 54px;
+    margin-top: -6px;
+    padding-top: 80px;
+    margin-left: 410px;
+    font-family: Recoleta;
+    font-size: 47px;
+    font-weight: 600;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #163A24;
+
+
+}
+
+.easy-text {
+    max-width: 527px;
+    height: 27px;
+    margin-top: 74px;
+    margin-left: 327px;
+    font-family: Noto Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #163A24;
+
+
+}
+
+.easy-title-ads {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    column-gap: 60px;
+}
+
+.easy-card {
+    display: flex;
+    column-gap: 50px;
+    align-items: center;
+    justify-content: space-between;
+    width: 1180px;
+    height: 186.66px;
+    margin-top: 100px;
+    /* margin-left: 130px; */
+
+}
+
+.easy-card {}
+
+.easy-ads {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.easy-card-title {
+    width: 260px;
+    height: 54px;
+    top: 19.17px;
+    left: 0.98px;
+    font-family: Noto Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+
+
+}
+
+.easy-cars-span {
+    width: 127px;
+    height: 32px;
+    top: 86.17px;
+    left: 67.98px;
+    font-family: Recoleta;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #163A24;
+
+
+}
+
+.easy-card-img {
+    display: flex;
+    align-items: center;
+}
+
+.easy-card-3 {}
+
+.easy-btn {
+    width: 244px;
+    height: 52px;
+    border-radius: 160px;
+    background-color: #198C36;
+    color: #F2EFE6;
+    border: none;
+    margin-left: 490px;
+}
+
+/* .easy {
+    max-width: 1440px;
+    height: 600px;
+    background: #F2EFE6;
+
+
+}
+
+.easy-title {
+    max-width: 360px;
+    height: 54px;
+    margin-top: -6px;
+    padding-top: 80px;
+    margin-left: 410px;
+    font-family: Recoleta;
+    font-size: 47px;
+    font-weight: 600;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: center;
+
+
+}
+
+.easy-text {
+    max-width: 527px;
+    height: 27px;
+    margin-top: 74px;
+    margin-left: 327px;
+    font-family: Noto Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+
+
+}
+
+.easy-title-ads {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    column-gap: 60px;
+}
+
+.easy-cards {
+    display: flex;
+    column-gap: 50px;
+    align-items: center;
+    justify-content: space-between;
+    width: 1180px;
+    height: 186.66px;
+    margin-top: 100px;
+    /* margin-left: 130px; */
+
+
+
+/* .easy-card {}
+
+.easy-ads {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.easy-card-title {
+    width: 260px;
+    height: 54px;
+    top: 19.17px;
+    left: 0.98px;
+    font-family: Noto Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+
+
+} */
+
+/* .easy-cars-span {
+    width: 127px;
+    height: 32px;
+    top: 86.17px;
+    left: 67.98px;
+    font-family: Recoleta;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+
+
+} */
+
+/* .easy-btn {
+
+
+    width: 244px;
+    height: 82px;
+    margin-top: 306px;
+    margin-left: 500px;
+    font-family: Noto Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    background-color: #15762E;
+    color: white;
+    padding: 18px;
+    border-radius: 40px;
+
+
+
+} */
+
+/* .easy-card-img {
+   display: flex;
+   align-items: center;
+} */
+/* .card-easy-imaga {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 300px;
+
+}
+
+.easy-card-3 {} */
+
+/* easy */
+/* another section */
+.another {}
+
+.container {}
+
+.another-desc {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1140px;
+    width: 1180px;
+    height: 513.55px;
+    margin-top: 55.66px;
+    left: 130px;
+    padding: 0.34px, 98px, 3.2px, 98.34px;
+
+}
+
+.another-desc-title {
+    display: flex;
+    flex-direction: column;
+    column-gap: 30px;
+}
+
+.another-title {
+    width: 360px;
+    height: 108px;
+    top: -5.92px;
+    left: -0.34px;
+    font-family: Recoleta;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #163A24;
+
+
+}
+
+.another-text {
+    width: 287px;
+    height: 27px;
+    top: 127.08px;
+    left: -0.34px;
+    font-family: Noto Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #163A24;
+
+
+}
+
+.another-btn {
+    max-width: 191px;
+    height: 52px;
+    font-family: Noto Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    background-color: #15762E;
+    border-radius: 30px;
+    color: #FBFAF7;
+    margin-top: 15px;
+    padding-top: 13px;
+    
+
+
+
+}
+
+.section-another-img {}
+
+.another-img {}
+
+/* another section */
+
+
+.free-books {
+    width: 100%;
+    height: 415px;
+    background-color: #163A24;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img_left {}
+
+.free-book {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+
+}
+
+.free-book-title {
+    width: 549px;
+    height: 54px;
+
+    font-family: Recoleta;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FBFAF7;
+
+
+
+}
+
+.free-book-text {
+    width: 361px;
+    height: 27px;
+    font-family: Noto Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FBFAF7;
+
+
+
+}
+
+.free-book-btn {
+    width: 258px;
+    height: 52px;
+    border-radius: 160px;
+    background: #FAB5A0;
+    color: #163A24;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+
+
+}
+
+.img_right {}
+
+
+
+
+
+
+
+
+
+
+.section-search {
+    Height: 240px;
+    padding-top: 50px;
+    background: #F2EFE6;
+}
+
+.search {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-date {}
+
+.search-title {
+    width: 342px;
+    height: 54px;
+    font-family: Recoleta;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #163A24;
+
+
+
+}
+
+.search-text {
+    margin-top: 30px;
+    width: 299px;
+    height: 27px;
+    font-family: Noto Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #163A24;
+
+
+
+}
+
+.search-form {}
+
+.input-search {
+    width: 553px;
+    height: 54px;
+    top: -0.2px;
+    border-radius: 255px;
+    border: 1px;
+
+
+
+
+}
+
+.input-btn {
+    width: 61px;
+    height: 22px;
+    color: #F2EFE6;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 111px;
+    height: 52px;
+    border-radius: 160px;
+    background: #15762E;
+    border: none;
+    margin-right: 10px;
+
+
+
+
+
+}
+
+.input-text {
+    margin-top: 10px;
+    width: 524px;
+    height: 42px;
+    top: 64.8px;
+    color: #163A24;
+
+}
+
+
+/* footer */
+
+
+.footer {
+    height: 194px;
+    color: white;
+    margin-top: 30px;
+
+
+}
+
+.footer-cards {
+
+}
+
+.footer-card {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+
+
+
+}
+
+.footer-img {}
+
+.footer-text {
+    width: 242px;
+margin-left: 200px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+
+    text-align: center;
+    color: #163A24;
+
+
+}
+
+.footer-icon {}
+
+.footer-card-text {
+    width: 462px;
+    height: 21px;
+  padding-top: 30px;
+    font-family: Noto Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #163A24;
+
+
+}
+
+.footer-card-img {
+    width: 590px;
+    height: 19px;
+    margin-top: 15px;
+    margin-left: 590px;
+    padding: 0px, 0px, 0px, 187px;
+    margin-top: 100px px;
+
+}
+
+.footer-card-2 {
+ /* display: flex;
+  justify-content: space-between; */
+
+}
